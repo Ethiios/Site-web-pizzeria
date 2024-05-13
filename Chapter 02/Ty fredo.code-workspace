@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "Ty fredo"
+	},
+	{
+		"path": "."
+	},
+	{
+		"path": "../Ty fredo"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Ty fredo"
+  }
+}

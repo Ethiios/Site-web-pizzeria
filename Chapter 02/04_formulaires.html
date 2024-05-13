@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaires</title>
+  </head>
+  <body>
+    <form action="#">
+      <label for="name">Nom</label>
+      <input name="name" type="text" id="name" />
+      <br /><br />
+      <label for="email">Email</label>
+      <input name="email" placeholder="email" type="email" id="email" />
+      <br /><br />
+      <label for="date">Date</label>
+      <input name="date" placeholder="date" type="date" id="date" />
+      <br /><br />
+      <label for="password">Password</label>
+      <input
+        name="password"
+        placeholder="password"
+        type="password"
+        id="password"
+      />
+
+      <br /><br />
+      <label for="description">Description</label>
+      <textarea
+        placeholder="Description"
+        name="description"
+        id="description"
+        cols="30"
+        rows="10"
+        maxlength="20"
+      ></textarea>
+      <br /><br />
+      <label for="gender">Gender</label>
+      <select name="" id="gender">
+        <option value="man">Homme</option>
+        <option value="woman" selected>Femme</option>
+      </select>
+      <br /><br />
+      <label for="fruit">fruit</label><br />
+      <input name="fruit" type="checkbox" id="fruit" value="pomme" /> Pomme
+      <input name="fruit" type="checkbox" id="fruit" value="banane" /> banane
+      <input name="fruit" type="checkbox" id="fruit" value="kiwi" /> kiwi
+      <br /><br />
+      <label for="viande">viande</label><br />
+      <input type="radio" id="viande" value="pomme" name="viande" /> Pomme
+      <input type="radio" id="viande" value="banane" name="viande" /> banane
+      <input type="radio" id="viande" value="kiwi" name="viande" /> kiwi
+
+      <br />
+      <input type="submit" value="Sauvegarder" />
+      <button type="submit">save</button>
+    </form>
+  </body>
+</html>
